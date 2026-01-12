@@ -1,0 +1,8 @@
+.button-column {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 1rem;
+    column-gap: 1rem;
+    min-height: 80dvh;
+}

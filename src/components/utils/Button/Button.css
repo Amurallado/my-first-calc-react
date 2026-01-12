@@ -1,0 +1,25 @@
+.calc-button {
+    background-color: var(--bg-elevated);
+    font-size: 2rem;
+    color: #fff;
+    border-style: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.calc-button:hover {
+    background-color: var(--bg-tertiary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--accent-glow);
+}
+
+.orange {
+    background-color: var(--accent-primary);
+}
+
+.orange:hover {
+    background-color: var(--accent-secondary);
+    box-shadow: 0 4px 16px var(--accent-glow);
+}

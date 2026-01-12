@@ -1,0 +1,10 @@
+input {
+    color: var(--accent-primary);
+    border-style: none;
+    background-color: inherit;
+    padding: 2rem 0;
+    font-size: clamp(2rem, 2dvh, 4rem);
+    text-align: end;
+    font-weight: 600;
+    text-shadow: 0 0 20px var(--accent-glow);
+}
